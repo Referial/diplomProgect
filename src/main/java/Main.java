@@ -10,6 +10,7 @@ public class Main {
     static BooleanSearchEngine engine;
 
     public static void main(String[] args) throws Exception {
+
         try (ServerSocket server = new ServerSocket(SSocket.PORT)) { // стартуем сервер один(!) раз
 
             System.out.println("Сервер запущен");
